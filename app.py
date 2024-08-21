@@ -7,17 +7,16 @@ url: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(url, key)
 
-# data = supabase.auth.sign_in_with_password({"email": "ameyapanchal011@gmail.com", "password": "sampleuser"})
+data = supabase.auth.sign_in_with_password({"email": "ameyapanchal011@gmail.com", "password": "sampleuser"})
 
 
 class Character: 
     def __init__(self, coreTrait) -> None:
         self.dict = coreTrait
-        self.Name = coreTrait["Name"]
-        self.Age = coreTrait["Age"]
-        self.Birthdate = coreTrait["Birthdate"]
-        self.Defense = coreTrait["Defense"]
-        self.Description = coreTrait["Description"]
+        self.Name = coreTrait["name"]
+        self.Age = coreTrait["age"]
+        self.Introduced = coreTrait["introduced"]
+        self.Description = coreTrait["description"]
 
     def __str__(self) -> str:
         return "\n-" + self.Name + "\n-" + str(self.Age) + "\n-" + self.Birthdate + "\n-" + self.Defense + "\n-" + self.Description
@@ -35,7 +34,6 @@ class DBNuancedCharacter(Character):
     def __init__(self, coreTrait, nonCoreTrait) -> None: 
         self.id = coreTrait["id"]
         super().__init__(coreTrait)
-        self.Introduced = coreTrait["introduced"]
         for key, value in nonCoreTrait.items():
             setattr(self, key, value)
 
@@ -76,12 +74,11 @@ class CharacterList():
         return retDict
     
     def getAllValues(self) -> str:
-        values = {"Name": set(), "Age": set(), "Birthdate": set(), "Defense": set(), "NonCore": set()}
+        values = {"Name": set(), "Age": set(), "NonCore": set()}
         for key, value in self.characters.items():
             values["Name"].add(getattr(value, "Name"))
-            values["Age"].add(getattr(value, "Age"))
-            values["Birthdate"].add(getattr(value, "Birthdate"))
-            values["Defense"].add(getattr(value, "Defense"))
+            values["Age"].add(int(getattr(value, "Age")))
+            
 
             for k, v in value.__dict__.items():
       
@@ -89,6 +86,7 @@ class CharacterList():
                     if(k not in values["NonCore"]):
                         values["NonCore"].add(k)
         for key, value in values.items():
+            print(key)
             values[key] = sorted(values[key])
         return values
     
@@ -107,12 +105,12 @@ class DBCharacterList(CharacterList):
         self.isAuthor = isAuthor
         self.characters = {}
         if(self.isAuthor):
-            self.data = supabase.table("Character List").select("*").execute()
+            self.data = supabase.table("newCharacterList").select("*").execute()
         else:
-            self.data = supabase.table("Character List").select("*").eq("introduced", True).execute()
+            self.data = supabase.table("newCharacterList").select("*").eq("introduced", True).execute()
         for i in range(len(self.data.data)):
-            self.extra = self.data.data[i]["Additional"]
-            self.characters[i] = DBNuancedCharacter(self.data.data[i], self.data.data[i]["Additional"])
+            self.extra = self.data.data[i]["additional"]
+            self.characters[i] = DBNuancedCharacter(self.data.data[i], self.data.data[i]["additional"])
 
     def __str__(self) -> str:
         return "\n\n".join(f"- {key}: {value}" for key, value in self.characters.items() if value != "")
@@ -125,13 +123,14 @@ class DBCharacterList(CharacterList):
     # def upload(self) -> None: 
     #     for i in range(0, len(self.characterDict)-1, 2):
     #         character = self.characterDict[i]
-    #         intro = 1 if character["Introduced"] == "Yes" else 0
+    #         intro = 1 if character["Introduced"] == "True" else 0
     #         extra = self.characterDict[i+1]
     #         response = (
-    #             supabase.table("Character List")
+    #             supabase.table("newCharacterList")
     #             .insert({"Name": character["Name"], "Age": character["Age"], "Birthdate": character["Birthdate"], "Defense": character["Defense"], "Description": character["Description"], "Introduced": intro, "Additional": extra})
     #             .execute()
     #         )
+    #         print(response)
     
 
         
@@ -142,27 +141,42 @@ class DBCharacterList(CharacterList):
       
 
 
-f = open("sample.txt", encoding='utf8')
+# f = open("changedCharactersList.txt", encoding='utf8')
 
-files = f.read()
+# files = f.read()
 
-fileParas = files.split("\n\n")
+# fileParas = files.split("\n\n")
 
-# creating dict
-dicty = {}
+# # creating dict
+# dicty = {}
 
-for i in range(len(fileParas)): 
-    char = fileParas[i].split("\n")
-    dicty[i] = {}
-    for k in range(len(char)):
-        line = char[k].split(":")
-        if len(line) == 2:
-            cate = line[0].strip()
-            val = line[1].strip()
-            dicty[i][cate] = val
+# for i in range(len(fileParas)): 
+#     char = fileParas[i].split("\n")
+#     dicty[i] = {}
+#     for k in range(len(char)):
+#         line = char[k].split(":")
+#         if len(line) == 2:
+#             cate = line[0].strip()
+#             val = line[1].strip()
+#             dicty[i][cate] = val
 
+# print(dicty)
 
-characters = CharacterList(dicty)
+# for i in range(0, len(dicty)-1, 2):
+#     character = dicty[i]
+#     print("current character")
+#     print(character)
+#     print(dicty[i+1])
+#     print("\n")
+#     intro = 1 if character["Introduced"] == "True" else 0
+#     extra = dicty[i+1]
+#     response = (
+#         supabase.table("newCharacterList")
+#         .insert({"name": character["Name"], "age": character["Age"], "description": character["Description"], "introduced": intro, "additional": extra})
+#         .execute()
+#     )
+
+# characters = CharacterList(dicty)
 
 
 
@@ -191,13 +205,12 @@ def add():
     if request.method == "POST":
         name = request.form.get("name")
         age = request.form.get("age") 
-        birth = request.form.get("birth")
-        deff = request.form.get("deff") 
+        intro = request.form.get("intro")
         desc = request.form.get("desc")
         extra = {}
         response = (
-            supabase.table("Character List")
-            .insert({"Name": name, "Age": age, "Birthdate": birth, "Defense": deff, "Description": desc, "introduced": 1, "Additional": extra})
+            supabase.table("newCharacterList")
+            .insert({"name": name, "age": int(age), "description": desc, "introduced": int(intro), "additional": extra})
             .execute()
         )
         return redirect(url_for('index'))
@@ -219,8 +232,8 @@ def update():
         intro = request.form.get("intro")
         extra = char.extra
         response = (
-            supabase.table("Character List")
-            .update({"Name": name, "Age": int(age), "Birthdate": birth, "Defense": deff, "Description": desc, "Additional": extra, "introduced": int(intro)})
+            supabase.table("newCharacterList")
+            .update({"name": name, "age": int(age), "description": desc, "additional": extra, "introduced": int(intro)})
             .eq("id", int(realId))
             .execute()
         )
@@ -240,13 +253,11 @@ def index():
         char = DBCharacterList(isUserAuthor)
         name = request.form.get("name")
         age = request.form.get("age")
-        birth = request.form.get("birth")
-        deff = request.form.get("def") 
         desc = request.form.get("desc") 
         sort = request.form.get("sort")
         nonCoreKey = request.form.get("nonCoreKey")
         nonCoreVal = request.form.get("nonCoreValue")
-        arr = {"Name": name, "Age": age, "Birthdate": birth, "Defense": deff, "Description": desc}
+        arr = {"Name": name, "Age": age, "Description": desc}
         for key, value in arr.items():
            if value and len(value) > 0:
                if(key == "Age"):

@@ -14,93 +14,80 @@
 <body>
     <div class="row mt-3" style="padding: 10px;">
         <div class="col-3 " style="padding: 30px; position: fixed;">
-          {% if isAuthor %}
-          <div style="border-style: solid; padding: 30px; border-radius: 30px; border-width: 1px;">
-            <a href="/add" class="btn btn-primary">Add Character</a>
-          </div>
-            
-          {% endif %}
+          
             <br/>
-            <div style="border-style: solid; padding: 30px; border-radius: 30px; border-width: 1px;">
-                <form action="{{ url_for("index")}}" method="post">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Name</label>
-                    <select class="form-select" aria-label="Default select example" name="name">
-                      <option selected></option>
-                      {% for value in data.Name %}
-                        <option value="{{value}}">{{value}}</option>
-                      {% endfor %}
-                    </select>
-                  </div>
-                    
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Age</label>
-                        <select class="form-select" aria-label="Default select example" name="age">
+              <div class="container-fluid">
+                <div class="flex-nowrap">
+                  
+                  <form action="{{ url_for("index")}}" method="post">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <select class="form-select" aria-label="Default select example" name="name">
                           <option selected></option>
-                          {% for value in data.Age %}
+                          {% for value in data.Name %}
                             <option value="{{value}}">{{value}}</option>
                           {% endfor %}
                         </select>
                       </div>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">BirthDate</label>
-                        <select class="form-select" aria-label="Default select example" name="birth">
-                          <option selected></option>
-                          {% for value in data.Birthdate %}
-                            <option value="{{value}}">{{value}}</option>
-                          {% endfor %}
-                        </select>
-                      </div>
-                      <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Defense</label>
-                          <select class="form-select" aria-label="Default select example" name="def">
-                            <option selected></option>
-                            {% for value in data.Defense %}
-                              <option value="{{value}}">{{value}}</option>
-                            {% endfor %}
-                          </select>
-                        </div>
+                        
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Description</label>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="desc">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Sort</label>
-                          <select class="form-select" aria-label="Default select example" name="sort">
-                            <option selected></option>
-
-                            <option value="Age">By Age (ascending)</option>
-                            <option value="Age">By Age (descending)</option>
-                            <option value="Name">Name</option>
-                            <option value="Birthdate">birth</option>
-                            <option value="Defense">Defense</option>
-
-
-
-                          </select>
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Non-Core Trait </label>
-                          <select class="form-select" aria-label="Default select example" name="nonCoreKey">
-                            <option selected></option>
-                            {% for value in data.NonCore %}
-                              <option value="{{value}}">{{value}}</option>
-                            {% endfor %}
-                          </select>
-                          <br/>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nonCoreValue">
-                        </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    
-                </form>
-                
+                            <label for="exampleInputEmail1" class="form-label">Age</label>
+                            <select class="form-select" aria-label="Default select example" name="age">
+                              <option selected></option>
+                              {% for value in data.Age %}
+                                <option value="{{value}}">{{value}}</option>
+                              {% endfor %}
+                            </select>
+                          </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Description</label>
+                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="desc">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Sort</label>
+                              <select class="form-select" aria-label="Default select example" name="sort">
+                                <option selected></option>
+    
+                                <option value="Age">By Age (ascending)</option>
+                                <option value="Age">By Age (descending)</option>
+                                <option value="Name">Name</option>
+                                <option value="Birthdate">birth</option>
+                                <option value="Defense">Defense</option>
+    
+    
+    
+                              </select>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Non-Core Trait </label>
+                              <select class="form-select" aria-label="Default select example" name="nonCoreKey">
+                                <option selected></option>
+                                {% for value in data.NonCore %}
+                                  <option value="{{value}}">{{value}}</option>
+                                {% endfor %}
+                              </select>
+                              <br/>
+                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nonCoreValue">
+                            </div>
+                            <br>
+                          <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        
+                    </form>
+                    <br>
+                    {% if isAuthor %}
+                    <a href="/add" class="btn btn-primary">Add Character</a>
+                    {% endif %}
+                </div>
             </div>
+
+           
             
             
             
         </div>
         <div class="d-flex justify-content-end">
-          <pre class="col-9" style="border-style: solid; padding: 30px; border-radius: 30px; border-width: 1px; white-space: pre-wrap; margin-left: 5px; ">
+          <pre class="col-9" style=" white-space: pre-wrap; margin-left: 5px; z-index: 1;">
             {% for value in name %}
               <div class="card" >
                 <div class="card-body">

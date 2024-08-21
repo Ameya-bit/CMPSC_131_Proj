@@ -1,8 +1,3 @@
-Unhealthy Obsession
-Miyoshi Academy (or just MA)
-Kimokotan Town
-Staff
-
 Name: Komatsu Toru (Komatsu-sensei)
 Age: 52
 Introduced: False
@@ -25,14 +20,12 @@ Description: "The youngest teacher in the school. Due to her young age, she's ga
 Defense: Trained
 Relation to mc: N/A
 
-
 Name: Suko Rei (Suko-sensei)
 Age: 34
 Introduced: True
 Description: "A mother of three. Due to constantly having to take care of children all day, she's grown quite tired of them, frequently yelling at the students during class, and relying on coffee to help her stay awake during school. Due to her sour mood, she's been give the name Sensei Suck by the students. Not the best name ever, but it gets the point across."
 Defense: Trained
 N/A
-
 
 Name: Kuse Nori (Kuse-sensei)
 Age: 30
@@ -41,14 +34,12 @@ Description: "This is your teacher, right? How do you not know anything about he
 Defense: Trained
 Relation to mc: Teacher
 
-
 Name: Shinohara Megumi (Shinohara-sensei)
 Age: 29
 Introduced: True
 Description: "She recently got married actually, from what I've heard, you don't learn anything in that class, since all she talks about it her husband and how much she loves him. At least it's better than how she was last year, I heard she made a student cry from how much she was yelling at her."
 Defense: Trained
 Relation to mc: N/A
-
 
 Name: Matsuo Kayo (Matsuo-sensei)
 Age: 40
@@ -77,7 +68,6 @@ Introduced: True
 Description: "If you ever find yourself in her office, just know you'll be treated very well. She has almost everything in there, from headache medicine, stomach medicine, even some other drugs that normally a school shouldn't even have. So if you ever need anything that I can't give you, know that there's also her you can steal from. But it won't be easy, she keeps the key to the medicine cabinet on her at all times, so you'll want to be careful when you try to take it. Or you could make a lockpick, either one works."
 Defense: Trained
 Relation to mc: Nurse
-
 
 Name: Yasui Kei (Yasui-kun)
 Age: 16
@@ -219,7 +209,6 @@ Introduced: True
 Description: "The vice-president of the student council. He's known for being formal at all times, even when the situation doesn't call for it, freaking out a few students. Miyoshi-sama trusts him the most out of all the council, thus why he's the vice president. The whole student council patrols the school every second of everyday. So it'll be hard for you to get away with certain things. The best thing I can tell you to do is to stay clear of them."
 Defense: Strong/Pepper spray
 
-
 Name: Sugawara Kiyoshi (Sugawara-sama)
 Age: 15
 Introduced: True
@@ -240,7 +229,6 @@ Introduced: True
 Description: "The enforcer of the student council. Personally, I think he was the perfect person for the enforcer position, as just his presence can scare someone. But, rather strangely, he was the one person in the council who was recommended by Miyoshi-sama. And even stranger, the two seem extremely close, as if they've known each other for much longer than the others...and his missing leg and eye...something is up with those two."
 Defense: Peak physical strength/Pepper spray
 Relation to mc: Suspicious of you
-
 
 Name: Furikizu Nobou and Furikizu Kyoko
 Age: 70 and 68
