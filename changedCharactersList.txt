@@ -1,12 +1,8 @@
-Unhealthy Obsession
-Miyoshi Academy (or just MA)
-Kimokotan Town
-Staff
-
 Name: Komatsu Toru (Komatsu-sensei)
 Age: 52
 Introduced: False
 Description: "The headmaster of MA, the grandson of the first headmaster and one of the few men trusted by the Miyoshi family. A social recluse, not many students have seen him walk around outside his office, when they do, they're almost always sent straight to the guidance counselor for not being in class. He seems to be on edge all the time, seemingly afraid of something, but what that could be is unknown to me."
+
 Defense: Taser/Trained
 Relation to mc: ???
 
@@ -14,6 +10,7 @@ Name: Fujita Chiyoko (Fujita-sensei)
 Age: 36
 Introduced: True
 Description: "The current guidance counselor. Known for being very strict with her punishments, however, if you manage to get on her good side by reporting bad behavior, she might be more lenient with you, if you get what I'm saying."
+
 Defense: Taser/Trained
 Relation to mc: Guidance counselor
 Class 1-A teacher (fem)
@@ -22,38 +19,39 @@ Name: Kuroda Katsumi (Kuroda-sensei)
 Age: 23
 Introduced: True
 Description: "The youngest teacher in the school. Due to her young age, she's gained popularity among the students for knowing the latest trends. Absolutely loves her job and her students, saying she would lay down her life to protect them. Even though she doesn't seem like much of a threat, you shouldn't underestimate her, as she's still a teacher."
+
 Defense: Trained
 Relation to mc: N/A
-
 
 Name: Suko Rei (Suko-sensei)
 Age: 34
 Introduced: True
 Description: "A mother of three. Due to constantly having to take care of children all day, she's grown quite tired of them, frequently yelling at the students during class, and relying on coffee to help her stay awake during school. Due to her sour mood, she's been give the name Sensei Suck by the students. Not the best name ever, but it gets the point across."
+
 Defense: Trained
 N/A
-
 
 Name: Kuse Nori (Kuse-sensei)
 Age: 30
 Introduced: True
 Description: "This is your teacher, right? How do you not know anything about her? Whatever. She's a big stickler for the rules, so you'll need to be careful if you're late to class. She'll let it slide once, but anytime after that she'll send you to the guidance counselor."
+
 Defense: Trained
 Relation to mc: Teacher
-
 
 Name: Shinohara Megumi (Shinohara-sensei)
 Age: 29
 Introduced: True
 Description: "She recently got married actually, from what I've heard, you don't learn anything in that class, since all she talks about it her husband and how much she loves him. At least it's better than how she was last year, I heard she made a student cry from how much she was yelling at her."
+
 Defense: Trained
 Relation to mc: N/A
-
 
 Name: Matsuo Kayo (Matsuo-sensei)
 Age: 40
 Introduced: True
 Description: "I don't even know why she's a teacher. It's obvious she hates kids, and she doesn't know how to teach, not to mention she's a smoker. I swear, this school just grabs random people from the street and makes them teachers. Speaking of smoking, she leaves her cigarettes on her desk in the teachers lounge, maybe you could use those somehow..."
+
 Defense: Trained
 Relation to mc: N/A
 
@@ -61,6 +59,7 @@ Name: Sugiyama Kyou (Sugiyama-sensei)
 Age: 45
 Introduced: True
 Description: "This is your senpai's teacher, by the way. Apparently, she has a medical issue that requires her to take a week off of school every 8 weeks. Despite this, she's really good at teaching, at least I assume so since everyone in that class is gifted."
+
 Defense: Trained
 Relation to mc: Senpai's teacher
 
@@ -68,35 +67,39 @@ Name: Usui Natsumi (Coach Usui)
 Age: 25
 Introduced: True
 Description: "Since MA is such a prestigious school, they have the power to hire famous people as their teachers, which is why a 3 time Olympic swimmer like Coach Usui is teaching here. Despite being a teacher, she doesn't like the use of 'sensei', since it makes her sound old. She's actually pretty nice for such a competitive person."
+
 Defense: Trained/Fit enough for self defense
 Relation to mc: Gym teacher
+
+Name: Yasui Kei (Yasui-kun)
+Age: 16
+Introduced: True
+Description: Love is a staple to life, so what happens when someone never receives it? The answer is- and obsession once they realize the feeling. 
+
+Defense: Deadly/player-dependent
+Affiliation: Player-dependent
 
 Name: Yoshino Rika (Yoshino-sensei)
 Age: 34
 Introduced: True
 Description: "If you ever find yourself in her office, just know you'll be treated very well. She has almost everything in there, from headache medicine, stomach medicine, even some other drugs that normally a school shouldn't even have. So if you ever need anything that I can't give you, know that there's also her you can steal from. But it won't be easy, she keeps the key to the medicine cabinet on her at all times, so you'll want to be careful when you try to take it. Or you could make a lockpick, either one works."
+
 Defense: Trained
 Relation to mc: Nurse
-
-
-Name: Yasui Kei (Yasui-kun)
-Age: 16
-Introduced: True
-Description: Love is a staple to life, so what happens when someone never receives it? The answer is: and obsession once they realize the feeling. 
-Defense: Deadly/player-dependent
-Affiliation: Player-dependent
 
 Name: Furikizu Haruto (Furikizu-senpai/Furikizu-kun OR Haru-senpai/Haru-kun)
 Age: 17
 Introduced: False
 Description: "In the three years he's been at this school, he's gained quite the reputation for himself, gaining attention from both girls and boys alike. I can't say I blame you for liking him, he's cute, smart, and has a lot of friends...Don't take that the wrong way, he's not my type. Oh but, he's also hiding a dark secret. What it is? Well that's something you can find out yourself. It shocked me quite a bit when I found out actually. Since he's so liked, that means you're not the only person who wants him, how you plan to deal with that is your business..." (His father was a "former" drug addict and killed his mother when she threatened to leave him and flee to America.)
+
 Defense: ??? (I would never hurt my senpai!)
 Affiliation: None (future: Student council)
 
-Name: "Did you really think it would be this easy to find out about me? Try harder. >:(" (Kawata Akira)
-Age: "That's unimportant." (16)
+Name: "Did you really think it would be this easy to find out about me? Try harder." (Kawata Akira)
+Age: 16
 Introduced: False
 Description: An urban legend in the school about a person who helps assist students with bad deeds in exchange for blackmail on other students. No one knows if their real or not, but all they know is that if you want something from them, you need to provide some type of blackmail, and if they need something from you, you'd better do as they ask...or else.
+
 Defense: ???
 Affiliation: ???
 
@@ -104,6 +107,7 @@ Name: Kurihara Shiro (Kurihara-kun)
 Age: 16
 Introduced: True
 Description: "Haru-senpai's childhood friend. Despite them knowing each other so well, their relationship has been falling off due to the way Kurihara has been treating him. Unbeknownst to senpai, this is only because Kurihara-kun has a crush on him, and has no idea how else to make it look like he doesn't. Maybe you could use this problem as a way to get rid of him?..."
+
 Defense: Incapable/Nakatomi Takeo
 Affiliation: None
 Problem: Has a stalker that is holding his cat hostage. The stalker says he won't give the cat back unless Kurihara sends him pictures of him in cosplay of a popular magical girl show. Go to the stalkers house and get Kurihara-kun's cat back. (If problem is solved, befriend/betray elimination can be done)
@@ -114,6 +118,7 @@ Name: Mayeda Akihiko (Aki-kun)
 Age: 16
 Introduced: True
 Description: "The leader of the cooking club. Haru-senpai has quite the sweet tooth, so Aki-kun would be a good match for him. However, I heard that Aki-kun's been having an issue with his parents bakery, maybe you could go check that out?..."
+
 Defense: Incapable
 Affiliation: Cooking club/Mayeda Bakery
 Problem: A landlord is demanding that Aki's parents pay more than they need to to keep their bakery running. Because their bakery doesn't make much money, they can't afford to pay as much as their saying to. Kidnap the main landlord and force him to lower the fee.(This information can be used for the Drive-to-murder elimination)
@@ -124,6 +129,7 @@ Name: Kimoto Katsuro (Kimoto-san)
 Age: 16
 Introduced: True
 Description: "The drama club is planning on performing Romeo and Juliet this week, and of course Kimoto-san is going to be the main character, Julius, and managed to convince Haru-senpai to be Romeo. You can't expect anything else from a snobby, self-absorbed piece of...anyways. Even though he's a terrible person, he's very set on his goals of becoming a famous actor, which is admirable. And with the years of acting training he's had, he's picked up a few things in the romance department. During the play, if you can get past the student council that's guarding the backstage, I'm sure you could find a rope or something that'll do the job for you..."
+
 Defense: Very weak
 Affiliation: Drama club
 Problem: Ogura Izumi, a girl that looks up to Kimoto-san a lot, is well-known for having the same hair color as Kimoto-san. Instead of seeing this as a way of showing her admiration, Kimoto immediately saw this as a threat to his popularity, thinking she was trying to become him. He wants you to somehow cut off all her hair, that way she doesn't think about copying him again.
@@ -134,15 +140,18 @@ Name: Uyeda Koichi (No nickname bc people are afraid of him)
 Age: 16
 Introduced: True
 Description: "The leader of the occult club. Many people find him weird and creepy for his likes, and immediately go running for the hills as soon as he steps into the room. But if someone were to ignore his strange hobbies, they would realize just how nice and cute the boy could be. Uyeda-kun can be very extra with his beliefs, if you were to convince him that you're some kind of...dangerous entity, then you could set him up..."
+
 Defense: His presence by itself can scare someone off. (Weak)
 Affiliation: Occult club
 Problem: There is a house in Uyeda-kun's neighborhood that is rumored to be haunted by a vengeful spirit. He would go visit himself, but he's too scared to break in. Break into the house and gather evidence of paranormal activity.
 Canon elimination: Convince him you're a dark entity and set up a chance for someone to walk in on him hurting you.
 Task: "U-Uhm...well, there's...one thing I need help with...we used to have a candle in the occult club...but it was confiscated for being too dangerous...do you think you can get it from the faculty room?...I-It's okay if you don't want to..."
 
+Name: I hate this
 Age: 16
 Introduced: True
 Description: "The leader of the sports club. For the past few weeks, he's been out of country for a running competition, and being fueled with the adrenaline of winning first place, he's decided to open a camp during school hours, which your senpai has decided to enter. Funai-kun is a very energetic person, and wishes only the best for everyone, making him a likely candidate for your senpai's love. Maybe when he goes for his daily swim in the school's pool, you could make use of the pipe room..."
+
 Defense: Strong
 Affiliation: Sports club
 Problem: A famous newspaper company has been writing false articles about Funai-kun after his out-of-country competition, saying he's been using steroids and cheating to get as fast as he is. Break into the warehouse of the newspaper company and threaten the manager to stop writing false rumors.
@@ -153,6 +162,7 @@ Name: Oshiro Ryuu (Oshiro-sensei)
 Age: 20
 Introduced: True
 Description: "Remember how I told you Sugiyama-sensei has a medical condition? Well, this is her substitute. From my research, he usually only dates women, but I guess your senpai is feminine enough for him. Honestly, there's no way Haru-senpai would agree to date him, so there's not much to worry about. But if you really want to, maybe you can reveal his pedophiliac nature to the world..."
+
 Defense: Trained
 Affiliation: Teacher
 Problem: Oshiro-sensei used to sleep with this one woman, but after he ended things with her, she "went crazy" and revealed that she had taken pictures of him in their own privacy. Break into the woman's house and burn all the photos she took of him.
@@ -163,6 +173,7 @@ Name: Kanda Kenji (Kanda-san)
 Age: 17
 Introduced: True
 Description: "A student from another school that's learning how to become a nurse from Yoshino-sensei. You know, everyone's been getting sick this week, Haru-senpai included. It's the perfect time for senpai to start crushing on the school nurse...He's not very good at remembering to check what's in his syringes before he uses them...maybe you could make use of that..."
+
 Defense: Trained (but still not that strong)
 Affiliation: Student teacher
 Problem: Kanda-kun is training to become a licensed nurse, and is planning to work at Kimokotan Hospital. However, the person who is testing him as a personal grudge against him, for reasons he does not know. He knows that he got almost every question on the written test right, and didn't make any fatal mistakes in the physical test. Break into the teacher's office and change Kanda-kun's grade before he can notice.
@@ -170,9 +181,10 @@ Canon elimination: Get a student to go to the nurse for a very bad headache and 
 Task: "Oh, uhm, I need some bandages, but I seem to have misplaced them! Do you think you could look around and see if you could find them? Last I remember, I brought them with me to class..."
 
 Name: Okawa Takeshi (No nickname)
-Age: 17 (stayed back for one year)
+Age: 17
 Introduced: True
 Description: "The leader of the delinquents. Almost everyone in the school is terrified of him, and for good reason. He's been suspended for the past seven weeks, and now that he's back it seems like he's set his sights on your senpai. Don't underestimate him though, it may seem like your senpai would never accept a delinquent like him, however, some people are attracted to the 'bad-boy' aesthetic. And something tells me he's not as bad as he acts in school...I heard, this week the guidance counselor's going to be trying to rehabilitate the delinquents...it would be a shame if she failed to..."
+
 Defense: Peak physical strength
 Affiliation: Delinquents
 Problem: Another gang in Kimokotan has been tormenting Okawa-kun's gang. Normally, they would be able to handle them, but this group has an extra person with them, making the odds unfair. Join them in fighting the other gang and win.
@@ -183,6 +195,7 @@ Name: Shimada Ryo (Shimada-kun)
 Age: 15
 Introduced: True
 Description: "One of your senpai's childhood best friends. He used to go to a different school, but decided to move after he found out Haru-senpai went to MA. Whenever asked about why he left the school, he always says it was because he thought MA's education system was better, but after a bit of digging, I found out he was actually being ruthlessly bullied at his old school...maybe you could get in touch with his old bullies..."
+
 Defense: Weak/always around Senpai
 Affiliation: None
 Problem: Despite moving to another school, some girls from Shimada-kun's old school have been making fun of him online. Go to their houses and get rid of them.
@@ -193,6 +206,7 @@ Name: Miyoshi Yuu (Miyoshi-sama OR President)
 Age: 16
 Introduced: False
 Description: "This guy is most definitely the hardest rival for you to beat. The current student council president, the heir to the Miyoshi Company, and the most popular student in school. Although he doesn't have a crush on your senpai, yet, he cares a lot for he safety of this school and he's willing to do anything to put anyone who threatens the school's safety behind bars. How you plan to get rid of him is completely up to you, but make sure when you do there's no way for him to report you..."
+
 Defense: Extensive training/Pepper spray
 Affiliation: Student council/Miyoshi Company
 Problem: ??? 
@@ -203,6 +217,7 @@ Name: Nishida Ayaka (Nishida-chan)
 Age: 17
 Introduced: True
 Description: "Senpai's best friend and closest confidant. No need to worry about her though, she already has a boyfriend, so there's no need to kill her...unless you want to, I don't judge. But, I would recommend against it, since you're already stalking him, you can listen into their conversations in the morning to get a jist of his week."
+
 Defense: Weak (will fight back if you kill Tamashiro Kichiro)
 Relation to mc: None/ Senpai's friend
 
@@ -210,6 +225,7 @@ Name: Tamashiro Kichiro
 Age: 17
 Introduced: True
 Description: "Nishida Ayaka's boyfriend and Furikizu Haruto's friend. You'll see him around a lot since you're stalking Haru-senpai. The two hang out around the school, occasionally with Nishida-chan. He's no real threat to your love, as he already has a girlfriend, but you can kill him if you want."
+
 Defense: Weak (will fight back if you kill Nishida Ayaka)
 Relation to mc: None/Senpai's friend
 
@@ -217,13 +233,14 @@ Name: Fujikawa Keiichi (Fujikawa-sama)
 Age: 17
 Introduced: True
 Description: "The vice-president of the student council. He's known for being formal at all times, even when the situation doesn't call for it, freaking out a few students. Miyoshi-sama trusts him the most out of all the council, thus why he's the vice president. The whole student council patrols the school every second of everyday. So it'll be hard for you to get away with certain things. The best thing I can tell you to do is to stay clear of them."
-Defense: Strong/Pepper spray
 
+Defense: Strong/Pepper spray
 
 Name: Sugawara Kiyoshi (Sugawara-sama)
 Age: 15
 Introduced: True
 Description: "The Treasurer of the student council. He's one of the more casual of the council, being more laid-back than the rest of his friends. However, he's still very reliable, good for investigating people because of how quiet he can be. The whole student council patrols the school every second of everyday. So it'll be hard for you to get away with certain things. The best thing I can tell you to do is to stay clear of them."
+
 Defense: Basic self-defense/Pepper spray
 Relation to mc: Suspicious of you
 
@@ -231,6 +248,7 @@ Name: Sada Kazuhiko (Kazuhiko-sama)
 Age: 16
 Introduced: True
 Description: "The secretary of the student council. Maybe if Miyoshi-sama didn't go to this school, maybe he would be the most popular boy in school. He's known all around the school for his good looks and smarts...well, his smarts on paper. When it comes to people, he's a bit of an airhead. But he's never once failed his duties as a student council. The whole student council patrols the school every second of everyday. So it'll be hard for you to get away with certain things. The best thing I can tell you to do is to stay clear of them."
+
 Defense: Basic self-defense/Pepper spray
 Relation to mc: Suspicious of you
 
@@ -238,12 +256,12 @@ Name: Toma Isamu (Toma-san)
 Age: 16
 Introduced: True
 Description: "The enforcer of the student council. Personally, I think he was the perfect person for the enforcer position, as just his presence can scare someone. But, rather strangely, he was the one person in the council who was recommended by Miyoshi-sama. And even stranger, the two seem extremely close, as if they've known each other for much longer than the others...and his missing leg and eye...something is up with those two."
+
 Defense: Peak physical strength/Pepper spray
 Relation to mc: Suspicious of you
 
-
 Name: Furikizu Nobou and Furikizu Kyoko
-Age: 70 and 68
+Age: 69
 Introduced: True
 Description: After the incident in Senpai's old home occured, his only living family was called, that being his grandparents. Despite being weak and just having lost their daughter, they had to stay strong, for the sake of their grandchildren. A day doesn't go by that they don't miss their daughter, but that doesn't matter, not when they have someone else to take care of.
 Senpai's little brother
@@ -253,16 +271,16 @@ Age: 4
 Introduced: True
 Description: When the incident in Senpai's old home happened, his brother was only one year old. Over the past three years, Senpai and his grandparents have made sure that he doesn't question what happened to his parents. This includes spoiling him rotton, and getting him everything he wants. According to Haru-senpai, Kou-chan has figured out the strength of his cries, and now uses it to get whatever he wants. Despite this, he's not at all a brat, and absolutely cherishes his big brother.
 
-Yasui Meiko
+Name: Yasui Meiko
 Age: 45
 Introduced: True
 Description: In the 2000s, something strange happened at a local school in Kimokotan. Ten girls mysteriously disappeared, all of which 
-
-Suitor 1 
+ 
 Name: Nakatomi Takeo
 Age: 16
 Introduced: True
 Description: "Kurihara-kun's best friend and one of the strongest students in the school. Nakatomi-kun spends every hour or every day with Kurihara-kun, so it'll be hard to eliminate him without getting caught by him. There's probably a reason why he spends so much time with him...I would investigate that if I were you..."
+
 Defense: Peak physical strength
 Task: (can't be received until you have a reputation of +30) "Well, actually, I don't know if you knew this, but I used to be a part of the martial arts club! But I left after the current leader kicked me out...I feel like he doesn't like me very much, could you please ask him what he thinks about me? I just want to be on good terms with everyone, I don't want any drama..."
 Club: None/previously Martial Arts Club
@@ -270,7 +288,8 @@ Club: None/previously Martial Arts Club
 Name: Iwamoto Masa
 Age: 17
 Introduced: True
-Description: "I'd be careful around this guy, one flick from him and you'll go flying, that's how strong he is. In fact, he's gained a mass of admirers from how strong he is. Despite this, he's hiding something, not anything bad, but he likes cute and sweet things. Both of which perfectly describe his crush: Mayeda-kun. Use that information however you will."
+Description: "I'd be careful around this guy, one flick from him and you'll go flying, that's how strong he is. In fact, he's gained a mass of admirers from how strong he is. Despite this, he's hiding something, not anything bad, but he likes cute and sweet things. Both of which perfectly describe his crush- Mayeda-kun. Use that information however you will."
+
 Defense: Strong
 Task: (can't be received until you have a strength level of 1) "Well...in the sewing room, there's a bunch of little dolls on a shelf...can you take a picture of them and give them to me?... I-It's not for me, it's for my little sister!"
 Club: Track and Field
@@ -281,12 +300,14 @@ Introduced: True
 Description: "If Kimoto-san became famous, this girl would be the person to go to every play, fan-meet, and interview. I'm not kidding when I say she's a superfan. She would probably be over the moon if she ended up in a relationship with him. And Kimoto-san sure loves being worshipped like a god. I'd look into her if I were you..."
 Weak/Will scream loud enough to alert others
 (must amass 1000 yen before speaking with her) "Ooh...get me one of those cameras from the photography club! Hehe...I'll be able to add more pictures of Kimoto-san on my shrine...H-huh?! Y-You didn't hear anything, I'm not crazy, I swear!"
+
 Club: Drama club
 
 Name: Shibata Takara
 Age: 16
 Introduced: False
 Description: Many years ago, an incident occured at the school. A student was killed in the third floor girls bathroom. No one knows why, how, or who did it. All they know is that the victim's soul never passed on. Forever damned to haunt the place she was murdered. To this day, students are afraid to go to that bathroom, in fear of what might happen to them, but not the occult club. Over the past few weeks, they've been attempting to communicate with the ghost, and she seems to be interested in one member in particular...
+
 Defense: ???/Will kill you if you get too close
 Task: ???
 Club: None
