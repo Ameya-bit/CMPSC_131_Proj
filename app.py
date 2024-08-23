@@ -14,7 +14,7 @@ class Character:
     def __init__(self, coreTrait) -> None:
         self.dict = coreTrait
         self.Name = coreTrait["name"]
-        self.Age = coreTrait["age"]
+        self.Age = int(coreTrait["age"])
         self.Introduced = coreTrait["introduced"]
         self.Description = coreTrait["description"]
 
@@ -91,7 +91,7 @@ class CharacterList():
         return values
     
     def sort(self, method) -> str:
-        self.characters = dict(sorted(self.characters.items(), key=lambda item: item[1].__dict__[method]))
+        self.characters = dict(sorted(self.characters.items(), key=lambda item: str(item[1].__dict__[method])))
         return self
     
     def getOGDict(self) -> str:
